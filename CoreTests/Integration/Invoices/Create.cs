@@ -40,9 +40,9 @@ namespace CoreTests.Integration.Invoices
         [Test]
         public void lineItemId_is_returned()
         {
-            var invoce = Given_an_invoice();
+            var invoice = Given_an_invoice();
 
-            Assert.NotNull(invoce.LineItems.FirstOrDefault().LineItemId);
+            Assert.NotNull(invoice.LineItems.FirstOrDefault().LineItemId);
         }
 
         [Test]
